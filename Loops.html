@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Loops</title>
+</head>
+
+<body style="background-color: grey;">
+    <h2>JavaScript Loops</h2>
+    <script>
+        function Pattern(a) {
+            for (var i = 1; i <= a; i++) {
+                var text = "";
+                for (var j = 1; j <= i; j++) {
+                    text += j + " ";
+                }
+                document.write(text);
+                document.write('<br>');
+            }
+        }
+        Pattern(6);
+    </script>
+</body>
+
+</html>
